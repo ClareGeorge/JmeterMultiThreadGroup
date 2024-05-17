@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715921082229,31,Navigate to Homepage-01 for user Helen03 in 1,200,OK,setUp Thread Group 1-1,text,true,,664,441,1,1,http://192.168.20.8:1080/webtours/,31,0,25
+1715921082262,2,Navigate to Homepage-02,200,OK,setUp Thread Group 1-1,text,true,,1007,497,1,1,http://192.168.20.8:1080/webtours/header.html,2,0,0
+1715921082664,2,Navigate to Homepage-01 for user Helen04 in 2,200,OK,setUp Thread Group 1-2,text,true,,664,441,2,2,http://192.168.20.8:1080/webtours/,2,0,1
+1715921082666,1,Navigate to Homepage-02,200,OK,setUp Thread Group 1-2,text,true,,1007,497,2,2,http://192.168.20.8:1080/webtours/header.html,1,0,0
+1715921082265,41,Click on Sign-in-01,200,OK,setUp Thread Group 1-1,text,true,,1025,508,1,1,http://192.168.20.8:1080/cgi-bin/welcome.pl?signOff=true,40,0,0
+1715921082668,35,Click on Sign-in-01,200,OK,setUp Thread Group 1-2,text,true,,1025,508,2,2,http://192.168.20.8:1080/cgi-bin/welcome.pl?signOff=true,33,0,0
+1715921082176,74,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,2696,1446,1,1,null,73,581,25
+1715921082664,38,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-2,,true,,2696,1446,2,2,null,36,129,1
+1715921082836,1,Debug Sampler,200,OK,setUp Thread Group 1-1,text,true,,398,0,2,2,null,0,0,0
+1715921082836,1,Debug Sampler,200,OK,setUp Thread Group 1-2,text,true,,398,0,2,2,null,0,0,0
+1715921082872,2,Click on Sign-in-02 Helen03,200,OK,Thread Group 1-1,text,true,,1660,151,1,1,http://192.168.20.8:1080/WebTours/home.html,1,0,1
+1715921082874,34,Click on Sign-in-03,200,OK,Thread Group 1-1,text,true,,1716,155,1,1,http://192.168.20.8:1080/cgi-bin/nav.pl?in=home,33,0,0
+1715921082910,119,Click on Sign-in-03 for user-session 0AA,200,OK,Thread Group 1-1,text,true,,2669,182,1,1,http://192.168.20.8:1080/cgi-bin/login.pl?username=&password=&getInfo=true,117,0,0
+1715921083030,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,463,0,1,1,null,0,0,0
